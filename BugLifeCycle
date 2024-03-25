@@ -1,0 +1,30 @@
+# Bug Life Cycle
+1- Bug Report:
+    # The bug is identify by a developer team member, QA or end user. The bug is registered in an issue tracking system, such as Jira, Bugzilla or a similar application.
+
+2- Screening:
+    # The project manager or tech leader reviews the bug to determine it's severity and priority in relation to other issues in the backlog. The bug is classified as critical, important, medium or low, and assigned to a team member for resolution.
+
+3- Analysis:
+    # The developer receives de bug to analyze and receives information to try to reproduce the problem in their development environment. They can investigate the source code relationship and identify possible root causes of the problem.
+
+4- Correction:
+    # Once the bug cause is identified, the developer works to correct the source code. They make necessary changes and ensure that the proposed solution doesn´t cause any unwanted side efects.
+
+5- Unitary test:
+    # Before correction, the developer runs unit tests to ensure that the change has been implemented correctly and doesn't create new bugs.
+
+6- Integration:
+    # The correction is integrated into the main branch of the source code, where other changes are being merged. This may involve conducting integration test to ensure that the correction works well the rest of the system.
+
+7- Regression Tests:
+    # Regression testing is conducted to ensure that the correction doesn't inadvertently affect other parts of the system. This involves running automated tests and manual tests in areas related to the fixed bug.
+
+8- Verification: 
+    # QA verifies this bug correction with success by following the steps of original reproduction. They may also executer additional test to ensure that the problem doesn't occur again.
+
+9- Closure:
+    # After successful correction verification, the bug is marked as resolved in the system and is closed. The responsible test or user who reported the bug is notified about the closure.
+
+10- Monitoring:
+    # After the bug is closed, it's monitored in production to ensure that it doesn't resurface in future versions of the software. If the bug reappears, the bug life cycle starts again.
